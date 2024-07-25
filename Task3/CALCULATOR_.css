@@ -1,0 +1,47 @@
+.main-container 
+{
+    width: 300px;
+    background-color: gray;
+    border-radius: 10px;
+    padding: 30px;
+    }
+.display 
+{
+     width :100%; 
+     height :60px; 
+     font-size :36px; 
+     text-align:right;
+     background-color:white;
+     padding-top :15px; 
+     border:none;
+     border-radius :5px;
+     margin-Bottom :20px;
+}
+.number-oprand
+{
+    display:grid; 
+    grid-template-columns:repeat(4,1fr) ;
+    grid-gap:10px
+}
+    
+.number
+{
+    width :100%; 
+    height: 50px; 
+    font-size :24pt; 
+    background-color:gray; 
+    color:white ; 
+    border :none ;
+    border-radius: 5px;
+    cursor:pointer ;
+}
+.number:hover
+{
+    background-color:white;
+    color: black
+}
+.oprand
+{
+    background-color:orange;
+    color:gray;
+}
