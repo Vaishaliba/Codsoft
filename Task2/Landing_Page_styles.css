@@ -1,0 +1,342 @@
+body{
+    font-family: 'Times New Roman';
+}
+main
+{
+    background-image: url(abstract-background-with-monochrome-low-poly-design_1048-14453.avif);
+    background-size: cover;
+    background-position: center;
+}
+.menu
+{
+    margin-bottom: 90px;
+}
+.container-first-menu
+{
+    position: fixed;
+    display: flex;
+    top: 0%;
+    height: 11%;
+    width: 100%;
+}
+.container-top-menu 
+{
+    z-index: 50;
+    top: 0%;
+    align-items:center;
+    background-color: rgb(161, 5, 0);
+    color: white;
+    width: 100%;
+}
+.logo img
+{
+    width: 12%;
+    height: 12%; 
+    overflow: hidden; 
+    border-radius: 50%;
+    top: 50%;
+    margin-left: 5px;
+    margin-top: 5px;
+    
+}
+.container-first-menu-1
+{
+    display: flex;
+    align-items:center;
+}
+
+a
+{
+    color: inherit;
+    text-decoration: none;
+}
+.menu-bar-1{
+    top: 50%;
+    padding: 10px;
+    margin-right: 1%;
+    margin: left 0.5em;
+    font-size: 18px;
+}
+.menu-bar-1 nav
+{
+    flex-grow: 1;
+}
+.contact-no
+{
+    background-color: rgb(247, 250, 247);
+    padding: 20px;
+    text-align: center;
+    border-radius: 8%;
+    box-shadow: 4px.4px.4px rgba(148, 105, 105, 0.663);
+    overflow: hidden;
+    color: black;
+}
+
+.container-title
+{
+    background-image: url(background.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    padding-bottom: 500px;
+    width: 100%;
+}
+.container-about-us
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+.para img{
+    float: right;
+    width: 350px;
+    margin: 4% 2% 2% 2%;
+    border-radius: 20px;
+}
+.para{
+    font-size: large;
+    overflow: hidden;
+}
+big
+{
+    
+    text-decoration: underline ;
+    font-weight: bold;
+}
+.h1-
+{
+    font-size: 45px;
+    color: rgb(216, 4, 4);
+    font-family: 'Times New Roman';
+}
+.button
+{
+    background-color: rgb(187, 38, 38);
+    padding: 20px;
+    color: white;
+    text-align: center;
+    border-radius: 8%;
+    box-shadow: 4px.4px.4px rgba(148, 105, 105, 0.663);
+    overflow: hidden;
+    margin-right: 90%;
+    margin-bottom: 10%;
+}
+.container-installation-system
+{
+    background-image: url(fire-fighting-system-installation-service-1000x1000.jpg);
+    background-repeat: no-repeat;
+    color: white;
+    background-size: 100%;
+    margin-bottom: 10%;
+}
+.container-installation-system .h2-
+{
+    font-size: 30px;
+    margin-left: 1%;
+
+
+}
+.container-installation-system .h1-
+{
+    padding-top: 0%;
+    padding-bottom: 0%;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    font-size: 50px;
+    margin-left: 7%;
+}
+.button-1
+{
+    background-color: rgb(187, 38, 38);
+    padding: 20px;
+    color: white;
+    text-align: center;
+    border-radius: 8%;
+    box-shadow: 4px.4px.4px rgba(148, 105, 105, 0.663);
+    overflow: hidden;
+    margin-right: 50%;
+    margin-bottom: 8%;
+    margin-left: 3%;
+    margin-top: 7%;
+}
+.container-system-list
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+.system-1
+{
+    flex: 1 1 calc(33.33% - 10px);
+    margin: 5px;
+    box-sizing: border-box;
+}
+.system-1 img
+{
+   width: 120px;
+   border: 5px white;
+   box-shadow: 3px 3 px 3px black;
+   margin : 5% 1%;
+}
+.system-1 p
+{
+    margin: 2% 35% 1% 2%; /*top , right , bottom , left*/
+    font-weight: bold;
+    float: right;
+}
+.para-1
+{
+    float: left;
+    margin-right: 10%;
+}
+.container-service
+{
+    background-image: url(fire-system-installation-services-.jpg);
+    padding-bottom: 200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+.service-name-photo
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-items: center;
+    padding-bottom: 0px;
+}
+.service-1 p
+{
+    margin: 2% 35% 1% 2%; /*top , right , bottom , left*/
+    font-weight: bold;
+    float: right;
+}
+.service-1
+{
+    flex: 1 1 calc(33.33% - 10px);
+    margin-top: 20%;
+}
+
+.service-1 img
+{
+    width: 190px;
+    border: 5px white;
+    box-shadow: 3px 3 px 3px black;
+    margin : 5% 1%;
+}
+.container-contact
+{
+    background-image: url(alarm-black-and-white-danger-equipment.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 90px;
+}
+.container-contact-title
+{
+    /* background-color: rgb(54, 53, 53); */
+    margin: 5% 0% 0% 2%;
+    color: white;
+    padding: 0px 0px 150px 30px;
+}
+.img-contact 
+{
+    background-color: rgb(188, 6, 6);
+    padding: 10px 15px 0px 0px;
+    margin-right: 10%;
+    float: left
+}
+.img-contact img
+{
+    width: 100%;
+    height: 100%;
+    margin: 10% 0% 0% 8%;
+
+}
+form
+{
+    margin-top: 2%;
+    display: block;
+    box-sizing: border-box;
+    padding-right: 40px;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    display: flex;
+    gap: 5px;
+}
+.container-form
+{
+    display: flex;
+    justify-items: center;
+    padding-top: 5%;
+}
+.container-form p{
+    color: rgba(255, 255, 255, 0,8);
+    text-transform: uppercase;
+    font-size: 16spx;
+    letter-spacing: 2px;
+    padding-left: 20px;
+    color: white;
+}
+input
+{
+    color: rgba(255, 255, 255, 0,8);
+    height: 40px;
+    line-height: 40px;
+    border-radius: 20px;
+    padding: 0px 20px;
+    border: none;
+    margin-bottom: 20px;
+    width: 300px;
+}
+.container-form button
+{
+    background-color: rgba(45, 126, 231);
+    height: 40PX;
+    width: 150px;
+    line-height: 40PX;
+    border-radius: 40PX;
+    border: none;
+    margin: 40PX 150PX;
+    box-shadow: 0PX 0PX 0PX rgba(0, 0,0, 0.3);
+    color: white;
+    font-size: 16px;
+   
+}
+.container-footer
+{
+    background-color: rgb(122, 0, 0);
+    color: white;
+    display: flex;
+    margin-top: 2%;
+}
+.footer
+{
+    display: flex;
+    margin-left: 2%;
+}
+.conatiner-about-us-footer p
+{
+    width: 100%;
+    margin-right: 10%;
+    text-align: justify;
+}
+.container-contact-footer
+{
+    padding-right: 50px;
+    margin-left: 10%;
+    text-align: justify;
+}
+.container-product-footer
+{
+    margin-left: 8%;
+    text-align: justify;
+} 
+.container-copy-right
+{
+    display: flex;
+    text-align: center;
+    background-color:rgb(122, 0, 0) ;
+    color: white;
+}
+
